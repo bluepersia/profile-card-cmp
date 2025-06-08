@@ -11,4 +11,5 @@ export default {
   flattenCombis: [], //Flatten combinators, e.g. > becomes _a_
   overrideConfig: {},
   copyFiles: 'public',
+  globalCss: 'page.css',
 };
