@@ -1,0 +1,22 @@
+{
+  "name": "profile-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluepersia/profile-card-cmp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluepersia/profile-card-cmp/issues"
+  },
+  "homepage": "https://github.com/bluepersia/profile-card-cmp#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
