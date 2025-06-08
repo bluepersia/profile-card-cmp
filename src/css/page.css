@@ -1,0 +1,14 @@
+body {
+  background-color: #19a1ae;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

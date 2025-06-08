@@ -1,0 +1,115 @@
+.user-card {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(../../public/images/bg-pattern-card.svg);
+  background-size: 100% 8.75rem;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: min(21.875rem, 100%);
+  padding-top: 5.75rem;
+  text-align: center;
+  border-radius: 0.9375rem;
+}
+
+.info {
+  padding-bottom: 1.5rem;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: solid 5px white;
+  margin-bottom: 1.5rem;
+}
+
+.h-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.59375rem;
+  margin-bottom: 0.5625rem;
+}
+.name {
+  margin-top: 0;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #2e3349;
+}
+
+.age {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #6b7082;
+  font-size: 1.125rem;
+}
+
+.location {
+  margin-top: 0;
+  font-size: 0.875rem;
+  color: #6b7082;
+}
+.stats {
+  padding: 1.5rem 2.9375rem;
+  border-top: 0.1rem solid #97979743;
+}
+
+.mg-pd-0 {
+  margin: 0;
+  padding: 0;
+}
+.stats .list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+  justify-content: space-between;
+  row-gap: 0.75rem;
+}
+
+.followers-label,
+.likes-label,
+.photos-label {
+  font-size: 0.625rem;
+  letter-spacing: 0.15em;
+  color: #6b7082;
+}
+
+.followers-value,
+.likes-value,
+.photos-value {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.followers-label {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.followers-value {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.likes-label {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.likes-value {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.photos-label {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.photos-value {
+  grid-column: 3;
+  grid-row: 1;
+}
